@@ -1,0 +1,94 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.button {
+  background-color: rgb(122, 225, 237);
+  vertical-align: middle;
+  border: none;
+  height: 60%;
+  aspect-ratio: 1 / 1;
+  box-sizing: border-box;
+  padding: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15%;
+  transition: opacity 0.4s;
+}
+.button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.button:active {
+  opacity: 0.2;
+}
+.header {
+  display: flex;
+  height: 60px;
+  vertical-align: middle;
+  padding-top: 1%;
+  width: 100%;
+  border-bottom: 0.2px solid rgb(243, 243, 246);
+  background-color: white;
+  margin-bottom:1%;
+  margin-top:-0.6%;
+  margin-left:-0.4%;
+}
+.image-icon {
+  height: 90%;
+  object-fit: contain;
+}
+.left-side {
+  text-align: center;
+  font-size: 200%;
+  margin-right: 6%;
+  padding-left:6%;
+}
+.middle-side {
+  width: 100%;
+  padding-top: 0.3%;
+  padding: 0 2% 0 2%
+}
+.right-side {
+  display: flex;
+  width: 30%;
+  vertical-align: middle;
+  padding-top: 0.4%;
+  margin-left: 4%;
+}
+.dash {
+  color: rgb(122, 225, 237);
+}
+.search-input {
+  width: 93%;
+  height: 34%;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 6px 0 0 6px;
+  margin-right: -1%;
+  padding: 6px 10px;
+  caret-color: #bfbfbf;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+}
+.full-date {
+  color: rgb(84, 197, 253);
+  font-weight: 550;
+}
+.buttons2 {
+  margin-right: 20%;
+}
+
+.search-input:focus,
+.search-input:focus-visible {
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  caret-color: #bfbfbf;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  -webkit-appearance: none;
+  appearance: none;
+}

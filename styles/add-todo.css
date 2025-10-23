@@ -1,0 +1,102 @@
+.home {
+  width: 3%;
+}
+.body,
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  --bg: #f5f7fb;
+  --text: #172033;
+  --muted: #6b7280;
+  --card: #e6eef8;
+  --accent: #5577d6;
+  --accent-2: #8faef8;
+  --success: #3aa76d;
+
+  background-color: var(--bg);
+  color: var(--text);
+}
+.title {
+  font-size: 300%;
+  text-align: center;
+  margin-bottom: 3%;
+  color: var(--accent);
+}
+.main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 2% 3%;
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+.instructions {
+  font-size: 24px;
+  margin: 1% 0;
+  color: var(--accent-2);
+}
+.todo-title {
+  width: 60%;
+  margin: 0.5% auto;
+  padding-left: 0.5rem;
+  height: 30px;
+  background-color: var(--card);
+  box-shadow: 0 2px 6px rgba(23, 32, 51, 0.06);
+  border: none;
+  border-radius: 12px;
+  color: var(--text);
+}
+.todo-description {
+  width: 60%;
+  margin: 0.5% auto;
+  text-align: left;
+  min-height: 100px;
+  padding: 0.5rem;
+  background-color: var(--card);
+  box-shadow: 0 2px 6px rgba(23, 32, 51, 0.06);
+  border: none;
+  border-radius: 12px;
+  resize: vertical;
+  box-sizing: border-box;
+  color: var(--text);
+}
+.create-button {
+  background-color: var(--success);
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 4%;
+  box-shadow: 0 2px 6px rgba(23, 32, 51, 0.06);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem 0.8rem;
+  transition: transform 0.4s,opacity 0.4s;
+  cursor: pointer;
+}
+.create-button:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+.create-button:active {
+  opacity: 0.4;
+}
+.radio-div {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+.todo-title:focus,
+.todo-title:focus-visible,
+.todo-description:focus,
+.todo-description:focus-visible {
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 8px rgba(85, 119, 214, 0.18);
+  caret-color: var(--muted);
+  -webkit-appearance: none;
+  appearance: none;
+}
+
