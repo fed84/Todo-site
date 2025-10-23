@@ -1,2 +1,3 @@
 # Todo-site
-Simple todo site with html,css,js. First project used to learn javascript. 
+Simple todo site with html,css,js. 
+First project used to learn javascript. 
