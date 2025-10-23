@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/main.css" class="styles" />
+    <!--ROBOTO CONDENSED-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>TODO APP</title>
+    <link rel="icon" href="images/todo.png" type="image/png" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="index.html"
+        ><div class="left-side"><span class="dash">Dash</span>board</div></a
+      >
+      <div class="middle-side">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search your task here..."
+        /><button class="search-button button">
+          <img class="image-icon" src="images/search-icon.png" />
+        </button>
+      </div>
+      <div class="right-side">
+        <div class="buttons2">
+          <button class="notification-button button">
+            <img class="image-icon" src="images/notification-icon.png" />
+          </button>
+          <button class="calendar-button button">
+            <img class="image-icon" src="images/calendar-icon.png" />
+          </button>
+        </div>
+        <div class="date">
+          <div class="day">Saturday</div>
+          <div class="full-date">11/10/2025</div>
+        </div>
+      </div>
+    </div>
+    <!--End of the header-->
+    <div class="task-side">
+      <div class="side-bar">
+        <div class="profile-image">
+          <img
+            src="images/profile-icon.png"
+            alt="empty profile icon"
+            class="profile-icon"
+          />
+          <div class="name">Your Name</div>
+          <div class="mail">example@gmail.com</div>
+        </div>
+
+        <a href="index.html"
+          ><div
+            class="dashboard-button side-bar-div"
+            style="background-color: white; color: black; opacity: 1"
+          >
+            <img src="images/dashboard.png" class="side-bar-image" />Dashboard
+          </div></a
+        >
+        <a href="tasks.html">
+          <div class="my-tasks-button side-bar-div">
+            <img src="images/list.png" class="side-bar-image" />My Tasks
+          </div>
+        </a>
+        <a href="add-todo.html"
+          ><div class="add-task-button side-bar-div">
+            <img src="images/add.png" class="side-bar-image" />Add task
+          </div></a
+        >
+        <div class="profile-button side-bar-div">
+          <img src="images/profile-icon.png" class="side-bar-image" />Profile
+        </div>
+      </div>
+      <!--end of side bar-->
+      <div class="main">
+        <div class="welcome-div">Welcome back!😄</div>
+        <div class="task-summary-div">
+          <div class="main-one">
+            <div class="todo-title-div">
+              <div style="font-size: 26px">To-do</div>
+              <div class="filter-div"></div>
+              <a href="add-todo.html" class="add-task">
+                <img src="images/add.png" class="add-icon tick" />
+              </a>
+            </div>
+            <div class="list-of-todos">
+              <div class="todo">
+                <div class="progress-title-setting-div">
+                  <img src="images/blue-circle.png" class="todo-icon" />
+                  <div class="todo-title">Attend Birthday party</div>
+                  <img class="todo-icon" src="images/points.png" />
+                </div>
+                <div class="description-div">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+                <div class="bottom-todo">
+                  <div class="priority">
+                    Prority:
+                    <span style="color: rgb(0, 153, 255)">Moderate</span>
+                  </div>
+                  <div class="status">
+                    Status: <span style="color: blue">In progress</span>
+                  </div>
+                  <div class="creation-date">Created on: 11/10/2025</div>
+                </div>
+              </div>
+              <div class="todo">
+                <div class="progress-title-setting-div">
+                  <img src="images/red-circle.png" class="todo-icon" />
+                  <div class="todo-title">Wash dishes</div>
+                  <img class="todo-icon" src="images/points.png" />
+                </div>
+                <div class="description-div">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+                <div class="bottom-todo">
+                  <div class="priority">
+                    Prority:
+                    <span style="color: green">Low</span>
+                  </div>
+                  <div class="status">
+                    Status: <span style="color: red">Not started</span>
+                  </div>
+                  <div class="creation-date">Created on: 11/10/2025</div>
+                </div>
+              </div>
+              <div class="todo">
+                <div class="progress-title-setting-div">
+                  <img src="images/blue-circle.png" class="todo-icon" />
+                  <div class="todo-title">Run 2 kilometers</div>
+                  <img class="todo-icon" src="images/points.png" />
+                </div>
+                <div class="description-div">
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+                <div class="bottom-todo">
+                  <div class="priority">
+                    Prority:
+                    <span style="color: rgb(0, 153, 255)">Moderate</span>
+                  </div>
+                  <div class="status">
+                    Status: <span style="color: blue">In progress</span>
+                  </div>
+                  <div class="creation-date">Created on: 11/10/2025</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-two">
+            <div class="stats">
+              <div class="stats-title">Task status</div>
+              <div class="stats-circles">
+                <div class="completed-task-circle">84%</div>
+                <div class="in-progress-task-circle">60%</div>
+                <div class="not-started-task-circle">40%</div>
+              </div>
+              <div class="stats-labels">
+                <div class="n">Completed</div>
+                <div class="n">In progress</div>
+                <div class="n">Not started</div>
+              </div>
+            </div>
+            <div class="completed-tasks">
+              <div class="completed-tasks-header">
+                <div class="completed-tasks-title">Completed tasks</div>
+                <button class="clear-completed-todos">CLEAR</button>
+              </div>
+              <div class="list-of-completed-todos">
+                <div class="todo">
+                  <div class="progress-title-setting-div">
+                    <img src="images/green-circle.png" class="todo-icon" />
+                    <div class="todo-title">Attend Birthday party</div>
+                    <img class="todo-icon" src="images/points.png" />
+                  </div>
+                  <div class="description-div">
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </div>
+                  <div class="bottom-todo">
+                    <div class="priority">
+                      Prority:
+                      <span style="color: rgb(0, 153, 255)">Moderate</span>
+                    </div>
+                    <div class="status">
+                      Status: <span style="color: green">Done</span>
+                    </div>
+                    <div class="creation-date">Created on: 11/10/2025</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="scripts/main.js"></script>
+  </body>
+</html>

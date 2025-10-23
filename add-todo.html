@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADD TODO</title>
+    <link rel="icon" href="images/todo.png" type="image/png" />
+  </head>
+    <link rel="stylesheet" href="styles/add-todo.css" class="stylesheet" />
+  </head>
+  <body>
+    <a href="index.html"><img class="home" src="images/home.png" /></a>
+    <div class="main">
+      <div class="title">CREATE YOUR TODO</div>
+      <div class="instructions">Title</div>
+      <input type="text" class="todo-title" />
+      <div class="instructions">Description</div>
+      <textarea
+        class="todo-description"
+        rows="3"
+        placeholder="Enter description..."
+      ></textarea>
+      <div class="instructions">Priority</div>
+      <div class="radio-div">
+        <label class="label-input" style="color: green"
+          ><input
+            checked
+            type="radio"
+            class="priority-input low"
+            name="priority"
+          />low</label
+        >
+        <label class="label-input" style="color: blue"
+          ><input
+            type="radio"
+            class="priority-input medium"
+            name="priority"
+          />medium</label
+        >
+        <label class="label-input" style="color: red"
+          ><input
+            type="radio"
+            class="priority-input high"
+            name="priority"
+          />high</label
+        >
+      </div>
+      <div class="instructions">Status</div>
+      <div class="radio-div">
+        <label class="label-input" style="color: red"
+          ><input
+            checked
+            type="radio"
+            class="priority-input not-started"
+            name="priority2"
+          />not started</label
+        >
+        <label class="label-input" style="color: blue"
+          ><input
+            type="radio"
+            class="priority-input in-progress"
+            name="priority2"
+          />in progress</label
+        >
+        <label class="label-input" style="color: green"
+          ><input
+            type="radio"
+            class="priority-input completed"
+            name="priority2"
+          />completed</label
+        >
+      </div>
+      <div class="instructions">Vital?</div>
+      <div class="radio-div">
+        <label class="label-input" style="color: green"
+          ><input
+            checked
+            type="radio"
+            class="priority-input vital"
+            name="priority3"
+          />yes</label
+        >
+       
+        <label class="label-input" style="color: red"
+          ><input
+            type="radio"
+            class="priority-input non-vital"
+            name="priority3"
+          />no</label
+        >
+      </div>
+      <button class="create-button">CREATE</button>
+    </div>
+    <script type="module" src="scripts/add-todo.js"></script>
+  </body>
+</html>
